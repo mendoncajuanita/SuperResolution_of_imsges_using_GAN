@@ -19,7 +19,7 @@ Each folder contains the following files:
 - Dataset - Imagenet 8k
 - Xavier Initialization was used.
 
-We sharpened the "High_Res" real image and then made the GAN learn the mapping between "Low Res" Image and "High_Res_Sharpened" image. The results were that the GAN performed better than the Deep GAN as edges were more well-defined.
+The "High_Res" real image was sharpened and then made the GAN learn the mapping between "Low Res" Image and "High_Res_Sharpened" image. The results were that the GAN performed better than the Deep GAN as edges were more well-defined.
 
 #### The folder \*_Small contains the architecture having only 5 basic blocks in the Generator.
 
@@ -45,9 +45,9 @@ Deep GAN with
 - Xavier Initialization was used.
 
 ## References
-Code for this project was taken and modified from:
+- Code for this project was taken and modified from:
 https://github.com/aitorzip/PyTorch-SRGAN
-Architecture for the project was taken from:
+- Architecture for the project was taken from:
 C. Ledig and et. al. Photo-realistic single image super-resolution using a generative adversarial network. 2017.
 
 
