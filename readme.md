@@ -29,7 +29,6 @@ We sharpened the "High_Res" real image and then made the GAN learn the mapping b
 - Input image size 128*128
 - Output image size 256*256
 - Trained for 50 Epochs / around 2.5 days
-- Trained on Ashwin's Laptop
 - Dataset - Imagenet 8k
 - Xavier Initialization was used.
 
@@ -48,6 +47,7 @@ Deep GAN with
 ## References
 Code for this project was taken and modified from:
 https://github.com/aitorzip/PyTorch-SRGAN
+Architecture for the project was taken from:
+C. Ledig and et. al. Photo-realistic single image super-resolution using a generative adversarial network. 2017.
 
-## Link to Poster
-https://drive.google.com/open?id=15jSEFqHIGYWWMeB2mUulJKaNV3LyvmKF
+
